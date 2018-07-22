@@ -205,7 +205,7 @@
   }
 
   @media only screen and (max-width: 600px) {
-    .v-icon {
+    .v-icon {   
       font-size: 90px;
     }
   }
