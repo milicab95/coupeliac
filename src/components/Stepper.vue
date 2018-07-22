@@ -193,15 +193,15 @@
 
 <style>
   .v-stepper{
-    background: unset;
-  }
-
-    .v-card {
-    background: unset;
+    background: unset !important;
   }
 
   .v-icon {
     font-size: 150px;
+  }
+
+  .v-card {
+    background: unset !important;
   }
 
   @media only screen and (max-width: 600px) {
