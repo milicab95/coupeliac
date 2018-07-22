@@ -191,9 +191,12 @@
 
 </script>
 
-<style scoped>
-  .v-stepper,
-  .v-card {
+<style>
+  .v-stepper{
+    background: unset;
+  }
+
+    .v-card {
     background: unset;
   }
 
