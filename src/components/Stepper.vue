@@ -1,7 +1,7 @@
 <template>
   <v-layout row>
     <v-flex md6 xs0></v-flex>
-    <v-flex md6 xs12>
+    <v-flex md6 xs12 class="right">
       <v-stepper v-model="e1" class="elevation-0" vertical v-if="!finished">
         <v-stepper-step :complete="e1 > 1" step="1" editable>Pol</v-stepper-step>
         <v-stepper-content step="1">
@@ -192,15 +192,15 @@
 </script>
 
 <style>
-  .v-stepper{
+  .right .v-stepper{
     background: unset !important;
   }
 
-  .v-icon {
+  .right .v-icon {
     font-size: 150px;
   }
 
-  .v-card {
+  .right .v-card {
     background: unset !important;
   }
 
